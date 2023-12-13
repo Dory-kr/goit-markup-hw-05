@@ -499,6 +499,7 @@ ul {
                                                     line-height: 1.5;
                                                     letter-spacing: 0.02em;
                                                     width: 264px;
+                                                    padding-top: 16px;
                                                 }
 
     .footer-span {
@@ -542,4 +543,29 @@ ul {
 .footer-link:hover,
 .footer-link:focus {
     background-color: #31d0aa;
+}
+
+.form-footer {
+
+}
+
+.footer-email {}
+
+.form-input {}
+
+.footer-btn {
+    background-color: var(--btn-color);
+    color: var(--second-text-color);
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-soc-link {}
+
+.footer-teleg {
+    background-color: yellow;
 }
