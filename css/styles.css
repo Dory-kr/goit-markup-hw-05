@@ -702,7 +702,7 @@ img {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-label {
@@ -727,7 +727,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   padding-left: 38px;
-  transition: border-color 250ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
 
@@ -780,6 +780,12 @@ img {
   fill: var(--dialog-color);
 }
 
+.review-form-checkbox:checked + .review-form-own-checkbox {
+  background-color: var(--btn-color);
+  border: none;
+  fill: var(--dialog-color);
+}
+
 .review-form-checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -809,7 +815,7 @@ img {
   margin-right: auto;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
