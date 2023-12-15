@@ -548,24 +548,29 @@ img {
   background-color: #31d0aa;
 }
 
-.form-footer {
+.footer-review-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-left: 80px;
-  gap: 24px;
 }
 
+
 .footer-email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .form-input {
@@ -749,6 +754,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.review-form-input:hover + .review-form-input-icon,
 .review-form-input:focus + .review-form-input-icon {
   fill: #4d5ae5;
 }
