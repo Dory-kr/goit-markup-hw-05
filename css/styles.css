@@ -557,6 +557,9 @@ img {
 }
 
 .footer-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
