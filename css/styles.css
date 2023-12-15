@@ -550,12 +550,15 @@ img {
 
 .form-footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 80px;
   gap: 24px;
 }
 
 .footer-email {
   display: flex;
+  flex-direction: column;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -618,6 +621,7 @@ img {
 }
 
 .footer-teleg {
+  fill: var(--second-text-color);
   margin-left: 16px;
 }
 
@@ -740,7 +744,7 @@ img {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  stroke: #2e2f42;
+  color: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -780,7 +784,7 @@ img {
   fill: var(--dialog-color);
 }
 
-.review-form-checkbox:checked + .review-form-own-checkbox {
+.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
   background-color: var(--btn-color);
   border: none;
   fill: var(--dialog-color);
