@@ -570,7 +570,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
 }
 
 .form-input {
@@ -628,7 +627,6 @@ img {
 
 .footer-teleg {
   fill: var(--second-text-color);
-  margin-left: 16px;
 }
 
 .backdrop {
